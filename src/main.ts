@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import App from './App.vue'
 import Plugin from './plugins'
+import App from './App.vue'
 
 // 引入bootstrap样式
 import 'bootstrap/dist/css/bootstrap.css'
