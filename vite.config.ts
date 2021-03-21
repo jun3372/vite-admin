@@ -13,8 +13,12 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': join(),
+      "api": join("api"),
       "views": join("views"),
-      "plugin": join("plugins")
+      "config": join("config"),
+      "plugin": join("plugins"),
+      "layout": join("components/layout"),
+      "component": join("components"),
     }
   }
 })
