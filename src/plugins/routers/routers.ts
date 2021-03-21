@@ -24,7 +24,7 @@ const routes: Array<RouteRecordRaw> = [
         ]
     },
     // { path: '/about', component: About },
-    { path: '/login', component: Login }
+    { path: '/login', name: 'Login', component: Login }
 ]
 
 export default routes

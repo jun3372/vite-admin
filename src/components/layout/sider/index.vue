@@ -16,6 +16,7 @@
         </template>
         <a-menu-item key="Home">Home</a-menu-item>
         <a-menu-item key="About">About</a-menu-item>
+        <a-menu-item key="Login">Login</a-menu-item>
       </a-sub-menu>
     </a-menu>
   </a-layout-sider>
