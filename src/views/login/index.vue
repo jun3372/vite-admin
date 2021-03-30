@@ -5,7 +5,7 @@
     </div>
 
     <div class="language">
-      <Theme />
+      <!-- <Theme /> -->
       <Language />
     </div>
   </div>
@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import Language from "component/language";
-import Theme from "component/layout/theme";
+// import Theme from "component/layout/theme";
 </script>
 
 <style lang="less" scoped>

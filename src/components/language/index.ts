@@ -1,3 +1,4 @@
-import Language from './index.vue'
+import Language from './views/index.vue'
 
+export { Language }
 export default Language

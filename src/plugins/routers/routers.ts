@@ -1,29 +1,17 @@
 import { RouteRecordRaw } from "vue-router"
 
 import Layout from 'layout'
-
 import Home from 'views/home/index.vue';
 import About from 'views/about/index.vue';
 import Login from 'views/login/index.vue'
 
-const routes: Array<RouteRecordRaw> = [
+const routes: RouteRecordRaw[] = [
     {
-        path: '/',
-        component: Layout,
-        children: [
-            {
-                path: '',
-                name: 'Home',
-                component: Home
-            },
-            {
-                path: '/about',
-                name: 'About',
-                component: About
-            }
+        path: '/', name: "Home", component: Layout, meta: { title: '首页' }, children: [
+            { path: "", component: Home }
         ]
     },
-    // { path: '/about', component: About },
+    { path: '/about', name: "About", component: About },
     { path: '/login', name: 'Login', component: Login }
 ]
 

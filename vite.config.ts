@@ -17,8 +17,12 @@ export default defineConfig({
       "views": join("views"),
       "config": join("config"),
       "plugin": join("plugins"),
+      "hooks": join("plugins/hooks"),
       "layout": join("components/layout"),
       "component": join("components"),
     }
+  },
+  server: {
+    port: 3000
   }
 })
