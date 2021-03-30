@@ -1,43 +1,28 @@
-// [data-theme='light'] {
-//     .ant-layout {
-//         &-sider {
-//             &-children {}
+[data-theme='light'] {
+    .ant-layout {
+        &-sider {
+            &-children {}
 
-//             &-trigger {
-//                 background: red !important;
-//             }
-//         }
-
-//         &-header {}
-
-//         &-content {}
-
-//         &-footer {}
-//     }
-
-//     .ant-menu {
-//         &-item {}
-//     }
-// }
-
-[data-theme='light'] .ant-layout {
-    &-sider {
-        &-children {}
-
-        &-trigger {
-            background: red !important;
+            &-trigger {
+                background: rgba(0, 0, 0, 0.08) !important;
+            }
         }
+
+        &-header {
+            background: #fff !important;
+            color: rgba(0, 0, 0, 0.85) !important;
+
+            .collapsed {
+                color: rgba(0, 0, 0, 0.85) !important;
+            }
+        }
+
+        &-content {}
+
+        &-footer {}
     }
 
-    &-header {
-        background: #fff;
+    .ant-menu {
+        &-item {}
     }
-
-    &-content {}
-
-    &-footer {}
-}
-
-[data-theme='light'] .ant-menu {
-    &-item {}
 }

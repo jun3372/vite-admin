@@ -1,33 +1,23 @@
-@import 'ant-design-vue/dist/antd.dark.css';
+[data-theme='dark'] {
+    .ant-layout {
+        &-sider {
+            &-children {}
 
-// [data-theme='dark'] {
-//     .ant-layout {
-//         &-sider {
-//             &-children {
+            &-trigger {
+                // background: red !important;
+            }
+        }
 
-//             }
+        .ant-layout-header {
+            // background: #fff !important;
+        }
 
-//             &-trigger {
+        &-content {}
 
-//             }
-//         }
+        &-footer {}
+    }
 
-//         &-header {
-
-//         }
-
-//         &-content {
-
-//         }
-
-//         &-footer {
-
-//         }
-//     }
-
-//     .ant-menu {
-//         &-item {
-
-//         }
-//     }
-// }
+    .ant-menu {
+        &-item {}
+    }
+}
